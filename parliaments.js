@@ -6,7 +6,7 @@ function Parliament(seatsNum, count, lists) {
     this.assigned = 0 ;
 }
 
-Parliament.prototype.seatsDistribution = function(){
+Parliament.prototype.seatsDhontDistribution = function(){
   console.log("ejecutando seatsDistribution()!!!!!!!!!!!!!!!!");
   //console.log(this.seatsNum);
   var arrayLast = this._arrayObjectsClone(this.count);

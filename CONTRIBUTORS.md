@@ -1,4 +1,4 @@
-Parliaments library
+# CONTRIBUTORS
 ============================================
 
 * **[Jon Esteban](https://github.com/jonabasque)**

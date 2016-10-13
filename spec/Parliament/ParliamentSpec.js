@@ -1,5 +1,5 @@
 describe("Parliament", function() {
-  var Parliament = require('../../lib/Parliament');
+  var Parliament = require('../../parliaments');
   console.log(Parliament);
   var parliament;
 
@@ -79,7 +79,7 @@ describe("Parliament", function() {
 
     beforeEach(function(){
 
-      parliament.seatsDistribution();
+      parliament.seatsDhontDistribution();
     });
 
     it("'assigned' sea igual a los 'seats'", function(){
